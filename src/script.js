@@ -18,10 +18,9 @@ const state = {
 };
 
 // Config
-const TMDB_ACCESS_TOKEN =
-  'eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJkNTAwMDc0OTJmOTlmOGExMDg3YTVhOWU2NWVhYTVmMiIsInN1YiI6IjYzNTZjMWJlNDNjZDU0MDA4MjY3Y2E1ZCIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.y-3yb0sW54hM7ZzX88Kg3NMsm7n2FDCdI8RVL3ItKyE';
-const TMDB_API_KEY = 'd50007492f99f8a1087a5a9e65eaa5f2';
-const TMDB_ACC_ID = '15317267';
+const TMDB_ACCESS_TOKEN = ''; // Your TMDB ACCESS TOKEN
+const TMDB_API_KEY = ''; // Your TMDB API KEY
+const TMDB_ACC_ID = ''; // Your TMDB ACCOUNT ID
 const TMDB_URL = `https://api.themoviedb.org/3`;
 const baseImgUrl = 'https://image.tmdb.org/t/p/original';
 
