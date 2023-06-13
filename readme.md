@@ -1,6 +1,6 @@
 ## Netflix Clone with Vanilla JS & TailwindCSS
 
-A cool netflix clone app that displays a featured movie randomly on each page refresh, and a list of rows, each row contains specific movies, like horror, romance, drama, and also Trending and Popular movies.
+A cool netflix clone app that displays a featured movie randomly on each page refresh, and a list of rows, each row contains specific movies like horror, romance, drama, and also Trending and Popular movies.
 
 Using cutting-edge modern js syntax like async wait, error handling with try catch, component-based approach to keep things and neat and short-circuiting.
 
