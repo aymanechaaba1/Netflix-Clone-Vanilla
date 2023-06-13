@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script defer src="src/script.js"></script>
+    <title>Netflix Clone 2.0</title>
+  </head>
+  <body class="bg-gray-950">
+    <div id="app" class="relative h-auto">
+      <header
+        class="header relative h-auto bg-top bg-cover bg-no-repeat bg-slate-800 bg-blend-overlay"
+      >
+        <nav class="flex items-center gap-4 justify-between p-3 text-white">
+          <img
+            src="https://nextflix-azure.vercel.app/_next/image?url=%2Fassets%2Flogo.png&w=96&q=75"
+            alt=""
+          />
+          <div class="flex items-center gap-3 flex-1">
+            <a href="./">Home</a>
+            <a href="./">TV Shows</a>
+            <a href="./">Movies</a>
+            <a href="./">New & Popular</a>
+            <a href="./">My List</a>
+          </div>
+          <div class="flex items-center gap-3">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="w-6 h-6 cursor-pointer"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z"
+              />
+            </svg>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              class="w-6 h-6 cursor-pointer"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M5.25 9a6.75 6.75 0 0113.5 0v.75c0 2.123.8 4.057 2.118 5.52a.75.75 0 01-.297 1.206c-1.544.57-3.16.99-4.831 1.243a3.75 3.75 0 11-7.48 0 24.585 24.585 0 01-4.831-1.244.75.75 0 01-.298-1.205A8.217 8.217 0 005.25 9.75V9zm4.502 8.9a2.25 2.25 0 104.496 0 25.057 25.057 0 01-4.496 0z"
+                clip-rule="evenodd"
+              />
+            </svg>
+            <img
+              src="https://nextflix-azure.vercel.app/assets/avatar.png"
+              alt=""
+              class="w-8 h-8 cursor-pointer"
+            />
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              class="w-6 h-6 cursor-pointer"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M12.53 16.28a.75.75 0 01-1.06 0l-7.5-7.5a.75.75 0 011.06-1.06L12 14.69l6.97-6.97a.75.75 0 111.06 1.06l-7.5 7.5z"
+                clip-rule="evenodd"
+              />
+            </svg>
+          </div>
+        </nav>
+        <div class="featured-movie flex flex-col gap-3 max-w-lg mt-60 ml-20">
+          <div class="btns flex items-center gap-3">
+            <button
+              class="btn-play flex items-center gap-2 bg-gray-800 text-white rounded-md py-3 px-5"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                class="w-6 h-6"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M4.5 5.653c0-1.426 1.529-2.33 2.779-1.643l11.54 6.348c1.295.712 1.295 2.573 0 3.285L7.28 19.991c-1.25.687-2.779-.217-2.779-1.643V5.653z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+              <div>Play</div>
+            </button>
+            <button
+              class="btn-more-info flex items-center gap-2 bg-gray-100 rounded-md py-3 px-5"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                class="w-6 h-6"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12zm8.706-1.442c1.146-.573 2.437.463 2.126 1.706l-.709 2.836.042-.02a.75.75 0 01.67 1.34l-.04.022c-1.147.573-2.438-.463-2.127-1.706l.71-2.836-.042.02a.75.75 0 11-.671-1.34l.041-.022zM12 9a.75.75 0 100-1.5.75.75 0 000 1.5z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+              <div>More Info</div>
+            </button>
+          </div>
+        </div>
+        <!-- ROWS -->
+        <div class="rows flex flex-col gap-5 py-10 ml-20">
+          <!-- Row -->
+        </div>
+      </header>
+      <div
+        class="modal-overlay absolute top-0 left-0 w-full h-full bg-slate-800/50 blur hidden"
+      ></div>
+      <div
+        class="modal fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-slate-950 w-1/2 shadow-md rounded-lg mx-auto hidden"
+      ></div>
+    </div>
+  </body>
+</html>
